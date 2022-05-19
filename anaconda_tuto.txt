@@ -1,7 +1,10 @@
 Anaconda
+--------
 
 Downloading
 https://repo.anaconda.com/archive/Anaconda3-2022.05-Linux-x86_64.sh
+
+---
 
 Decompile Folder
 └─ $ ▶ bash ~/Downloads/Anaconda3-2022.05-Linux-x86_64.sh 
@@ -56,7 +59,7 @@ env79                    /home/esteban/anaconda3/envs/env79
 
 ---
 
-To see all packages
+To see all packages :
 
 (env79)
 └─ $ ▶ conda list
@@ -67,31 +70,25 @@ you can see versions of :
 
 ---
 
-Deactivatation
+DEACTIVATE
 └─ $ ▶ conda deactivate
 (base)
 └─ $ ▶ You are in second virtualenv.
 
----
+(base) restart automatically in every time you open a terminal
+To set the auto_activate_base parameter to false, type :
+└─ $ ▶ conda config --set auto_activate_base false
 
-Activation
+ACTIVATE
 └─ $ ▶ conda activate env79
-
----
 
 QUIT (base)
 └─ $ ▶ conda deactivate
 
----
-
-Remove package
+REMOVE package
 └─ $ ▶ conda remove <name_of_package>
 
----
-
 UPDATE
-
-Update
 └─ $ ▶ conda update --all
 
 ---
@@ -123,15 +120,17 @@ Open Jupyter notebook (browser)
 
 > Use Control-C to stop this server and shut down all kernels 
 
+---
 
 > You browser display your user directory
 > Choose to go to Documents in GUI
 > and click new button and choice python3 (a new tab is opened)
 > don't forget to save and take a look where youre file created is.
 
+---
+
 GitHub
 > Create a new repository and upload your "file_name.pynb" from GitHub.
 
-
-
+---
 
