@@ -13,14 +13,18 @@ $ git init
 
 $ git clone https://...
 
-$ git config --global user.name "Votre nom ou pseudo"
-$ git config --global user.email "Votre@email.com"
+$ git config --global user.name "pseudo"
+
+$ git config --global user.email "e-mail"
 
 On passe le dossier à virtualenv.
 
 $ virtualenv --version
+
 $ virtualenv nomdudossier 
+
 $ source nomdudossier/bin/activate
+
 $ cd nomdudossier/
 
 ---
