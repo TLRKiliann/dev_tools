@@ -44,6 +44,8 @@ $ git commit -m "msg to commit"
 
 $ git push -u origin name_of_branch sender
 
+---
+
 ### Branch
 
 $ git branch
@@ -84,7 +86,7 @@ $ git push --delete origin branch_name_here
 
 ---
 
-### log
+### Log
 
 $ git log <hash_number>
 
@@ -96,6 +98,7 @@ $ git log --graph --oneline
 
 $ git log --graph --oneline --all
 
+---
 
 rebase & stash
 
