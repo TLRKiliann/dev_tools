@@ -72,11 +72,15 @@ $ git branch -d branch_name
 
 $ git merge branch_name
 
+---
+
 ### How to abort a conflicting merge in Git:
 
 **If you want to throw a merge away and start over, you can run the following command :**
 
 $ git merge --abort
+
+---
 
 ### How to remove a remote branch in Git:
 
