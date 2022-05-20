@@ -1,8 +1,8 @@
 # Install Git
 
-$ mkdir name_folder
+`$ mkdir name_folder`
 
-$ cd name_folder
+`$ cd name_folder`
 
 
 ## Virtualenv
@@ -17,7 +17,7 @@ $ git config --global user.name "pseudo"
 
 $ git config --global user.email "e-mail"
 
-On passe le dossier à virtualenv.
+**Switch to virtualenv**
 
 $ virtualenv --version
 
