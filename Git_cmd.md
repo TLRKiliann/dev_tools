@@ -7,9 +7,7 @@ $ cd name_folder
 
 ## Virtualenv
 
-# Install Git
-
-# sudo apt install git-all
+$ sudo apt install git-all
 
 $ git init
 
@@ -41,10 +39,12 @@ $ git checkout -b new_name
 
 $ git checkout new_name
 
-Delete branch
+**Delete branch**
+
 $ git branch -d branch_name
 
-To merge a branch
+**To merge a branch**
+
 $ git merge branch_name
 
 ##How to abort a conflicting merge in Git:
