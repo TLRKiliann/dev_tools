@@ -4,7 +4,6 @@
 
 `$ cd name_folder`
 
----
 
 ## Virtualenv
 
