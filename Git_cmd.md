@@ -132,7 +132,7 @@ Return
 
 ---
 
-### Log
+## Log
 
 `└─ $ ▶ git log <hash_number>`
 
@@ -193,15 +193,13 @@ Date:   Sat May 21 11:38:52 2022 +0200
 
 `└─ $ ▶ git log -p`
 
-**Searches for commits by a specified author. The *pattern* argument can be a string or a regex.**
+**Searches for commits by a specified author. The \<pattern\> argument can be a string or a regex.**
            
-`└─ $ ▶git log --author="*pattern*" `
+`└─ $ ▶git log --author="pattern" `
            
-**Searches for commits with a commit message. The <pattern> argument can be a string or a regex.**
+**Searches for commits with a commit message. The \<pattern\> argument can be a string or a regex.**
 
 `└─ $ ▶git log --grep="<pattern>" `
-
-
 
 **What’s happening: git reflog is an amazing resource for recovering project history. You can recover almost anything—anything you’ve committed—via the reflog.**
 
