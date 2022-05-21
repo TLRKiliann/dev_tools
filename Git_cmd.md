@@ -134,9 +134,13 @@ Return
 
 ## Log
 
-Suppose we want to see the changes made to the “main.py” file in our code. We could do so using the following command:
+**Suppose we want to see the changes made to the “main.py” file in our code. We could do so using the following command**
 
 `└─ $ ▶ git log -- main.py`
+
+**To get hash of latest commit**
+
+`└─ $ ▶ git rev-parse HEAD`
 
 `└─ $ ▶ git log <hash_number>`
 
@@ -225,6 +229,14 @@ Date:   Sat May 21 11:38:52 2022 +0200
 
 `└─ $ ▶ git log --after="2022-19-5" --before="2019-3-19"`
 
----
 
-rebase & stash
+## Rebase
+
+**To modify a commit**
+
+`└─ $ ▶ git rebase --interactive 'bbc643cd^'`
+
+
+stash
+
+amend
