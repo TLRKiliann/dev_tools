@@ -1,17 +1,11 @@
-     ..      ...                                           s    
-  :~"8888x :"%888x                                        :8    
- 8    8888Xf  8888>                                      .88    
-X88x. ?8888k  8888X       .u          u           .     :888ooo 
-'8888L'8888X  '%88X    ud8888.     us888u.   .udR88N  -*8888888 
- "888X 8888X:xnHH(`` :888'8888. .@88 "8888" <888'888k   8888    
-   ?8~ 8888X X8888   d888 '88%" 9888  9888  9888 'Y"    8888    
- -~`   8888> X8888   8888.+"    9888  9888  9888        8888    
- :H8x  8888  X8888   8888L      9888  9888  9888       .8888Lu= 
- 8888> 888~  X8888   '8888c. .+ 9888  9888  ?8888u../  ^%888*   
- 48"` '8*~   `8888!`  "88888%   "888*""888"  "8888P'     'Y"    
-  ^-==""      `""       "YP'     ^Y"   ^Y'     "P'              
-                                                                
-                                                                
+   dBBBBBb    dBBBP dBBBBBb     dBBBP dBBBBBBP
+       dBP               BB                   
+   dBBBBK'  dBBP     dBP BB   dBP      dBP    
+  dBP  BB  dBP      dBP  BB  dBP      dBP     
+ dBP  dB' dBBBBP   dBBBBBBB dBBBBP   dBP      
+                                              
+
+                                                
                                                                 
 # INSTALL REACT
 
