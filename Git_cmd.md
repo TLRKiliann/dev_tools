@@ -144,6 +144,8 @@ Suppose we want to see the changes made to the “main.py” file in our code. W
 
 `└─ $ ▶ git log -n 3`
 
+`└─ $ ▶ git log --oneline`
+
 `└─ $ ▶ git log --graph --oneline`
 
 `└─ $ ▶ git log --graph --oneline --all`
