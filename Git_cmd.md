@@ -1,21 +1,21 @@
 
 
 
-       ██████╗ ██╗████████╗     ██╗ ██████╗███╗   ███╗██████╗ ██╗ 
-      ██╔════╝ ██║╚══██╔══╝    ██╔╝██╔════╝████╗ ████║██╔══██╗╚██╗
-      ██║  ███╗██║   ██║       ██║ ██║     ██╔████╔██║██║  ██║ ██║
-      ██║   ██║██║   ██║       ██║ ██║     ██║╚██╔╝██║██║  ██║ ██║
-      ╚██████╔╝██║   ██║       ╚██╗╚██████╗██║ ╚═╝ ██║██████╔╝██╔╝
-       ╚═════╝ ╚═╝   ╚═╝        ╚═╝ ╚═════╝╚═╝     ╚═╝╚═════╝ ╚═╝ 
+           ██████╗ ██╗████████╗     ██╗ ██████╗███╗   ███╗██████╗ ██╗ 
+          ██╔════╝ ██║╚══██╔══╝    ██╔╝██╔════╝████╗ ████║██╔══██╗╚██╗
+          ██║  ███╗██║   ██║       ██║ ██║     ██╔████╔██║██║  ██║ ██║
+          ██║   ██║██║   ██║       ██║ ██║     ██║╚██╔╝██║██║  ██║ ██║
+          ╚██████╔╝██║   ██║       ╚██╗╚██████╗██║ ╚═╝ ██║██████╔╝██╔╝
+           ╚═════╝ ╚═╝   ╚═╝        ╚═╝ ╚═════╝╚═╝     ╚═╝╚═════╝ ╚═╝ 
 
 
 
 
 # Install Git
 
-`└─ $ ▶ mkdir name_folder`
+`└─ $ ▶ mkdir folder_name`
 
-`└─ $ ▶ cd name_folder`
+`└─ $ ▶ cd folder_name`
 
 
 ## Git & Virtualenv
@@ -34,16 +34,18 @@
 
 `└─ $ ▶ virtualenv --version`
 
-`└─ $ ▶ virtualenv nomdudossier` 
+`└─ $ ▶ virtualenv folder_name` 
 
-`└─ $ ▶ source nomdudossier/bin/activate`
+`└─ $ ▶ source folder_name/bin/activate`
 
-`└─ $ ▶ cd nomdudossier/`
+`└─ $ ▶ cd folder_name/`
 
 ## Renaming the Local master Branch to main
 
 `└─ $ ▶ git branch -m master main`
+
 `└─ $ ▶ git branch`
+
 `└─ $ ▶ git status`
 
 **To verify**
