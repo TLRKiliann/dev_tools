@@ -104,14 +104,3 @@ describe("SearchForm", () => {
 ```
 
 `└─ $ ▶ npm run test -- -t 'utils'`
-
-
-## Redux
-
-`└─ $ ▶ npm install redux react-redux --save-dev`
-
-
-**Debugging & Testing**
-
-- Redux DevTools (add-ons (google))
-
