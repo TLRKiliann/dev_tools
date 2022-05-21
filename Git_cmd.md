@@ -9,13 +9,12 @@
            ╚═════╝ ╚═╝   ╚═╝        ╚═╝ ╚═════╝╚═╝     ╚═╝╚═════╝ ╚═╝ 
 
 
-<font color='red'>test blue color font</font>
 
-- ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `#f03c15`
-- ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `#c5f015`
-- ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `#1589F0`
 
-`#f03c15 Hello #f03c15`
+
+opt() = black | red | green | yellow | blue | purple | cyan | white | light_black | light_red | light_green | light_yellow | light_blue | light_purple | light_cyan | light_white | normal | bold | underline | blink | inherit
+
+cyan(IOData::iodata()) -> iodata()
 
 # Install Git
 
