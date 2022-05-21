@@ -21,7 +21,7 @@
 
 `└─ $ ▶ cd folder_name`
 
-`#f03c15`Hello`#f03c15`
+#f03c15 Hello #f03c15
 
 ## Git & Virtualenv
 
@@ -107,7 +107,7 @@ or
 `└─ $ ▶ git branch -d branch_name`
 
 **How to remove a remote branch in Git**
-***If you no longer need a remote branch you can remove it using the command below:***
+*If you no longer need a remote branch you can remove it using the command below:*
 
 `└─ $ ▶ git push --delete origin branch_name_here`
 
