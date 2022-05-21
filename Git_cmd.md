@@ -195,7 +195,7 @@ Date:   Sat May 21 11:38:52 2022 +0200
 
 **Searches for commits by a specified author. The \<pattern\> argument can be a string or a regex.**
            
-`└─ $ ▶ git log --author="pattern" `
+`└─ $ ▶ git log --author="<pattern>" `
            
 **Searches for commits with a commit message. The \<pattern\> argument can be a string or a regex.**
 
