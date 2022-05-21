@@ -10,8 +10,6 @@
 
 
 
-
-
 ```diff
 - text in red
 + text in green
@@ -20,13 +18,14 @@
 @@ text in purple (and bold)@@
 ```
 
-# Install Git
+```diff
+- # Install Git
+```
 
 `└─ $ ▶ mkdir folder_name`
 
 `└─ $ ▶ cd folder_name`
 
-#f03c15 Hello #f03c15
 
 ## Git & Virtualenv
 
@@ -40,6 +39,7 @@
 
 `└─ $ ▶ git config --global user.email "e-mail"`
 
+
 ## Switch to virtualenv
 
 `└─ $ ▶ virtualenv --version`
@@ -49,6 +49,7 @@
 `└─ $ ▶ source folder_name/bin/activate`
 
 `└─ $ ▶ cd folder_name/`
+
 
 ## Renaming the Local master Branch to main
 
@@ -70,7 +71,6 @@ Return
 Branch 'main' set up to track remote branch 'main' from 'origin'.
 ```
 
----
 
 ### Basic
 
@@ -86,7 +86,6 @@ Branch 'main' set up to track remote branch 'main' from 'origin'.
 
 `└─ $ ▶ git push -u origin name_of_branch sender`
 
----
 
 ### Branch
 
@@ -125,7 +124,6 @@ Return
 
 `└─ $ ▶ git merge branch_name`
 
----
 
 ### How to abort a conflicting merge in Git:
 
@@ -133,7 +131,6 @@ Return
 
 `└─ $ ▶ git merge --abort`
 
----
 
 ### How to remove a remote branch in Git:
 
@@ -141,7 +138,6 @@ Return
 
 `└─ $ ▶ git push --delete origin branch_name_here`
 
----
 
 ### Log
 
