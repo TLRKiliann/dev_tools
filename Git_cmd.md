@@ -21,6 +21,7 @@
 
 `└─ $ ▶ cd folder_name`
 
+<span style="color:blue">some *blue* text</span>
 
 ## Git & Virtualenv
 
