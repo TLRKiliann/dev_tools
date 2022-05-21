@@ -12,9 +12,13 @@
 
 
 
-opt() = black | red | green | yellow | blue | purple | cyan | white | light_black | light_red | light_green | light_yellow | light_blue | light_purple | light_cyan | light_white | normal | bold | underline | blink | inherit
-
-cyan(IOData::iodata()) -> iodata()
+```diff
+- text in red
++ text in green
+! text in orange
+# text in gray
+@@ text in purple (and bold)@@
+```
 
 # Install Git
 
