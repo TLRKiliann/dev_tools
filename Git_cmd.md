@@ -188,6 +188,19 @@ Date:   Sat May 21 11:38:52 2022 +0200
  Git_cmd.md | 35 +++++++++++++++++++++--------------
  1 file changed, 21 insertions(+), 14 deletions(-)
  ```
+ 
+**Shows the patch for each commit as well as their full diff.**
+
+`└─ $ ▶ git log -p`
+
+**Searches for commits by a specified author. The *pattern* argument can be a string or a regex.**
+           
+`└─ $ ▶git log --author="*pattern*" `
+           
+**Searches for commits with a commit message. The <pattern> argument can be a string or a regex.**
+
+`└─ $ ▶git log --grep="<pattern>" `
+
 
 
 **What’s happening: git reflog is an amazing resource for recovering project history. You can recover almost anything—anything you’ve committed—via the reflog.**
