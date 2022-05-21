@@ -63,7 +63,7 @@ Branch 'main' set up to track remote branch 'main' from 'origin'.
 
 ---
 
-### Basic
+## Basic
 
 `└─ $ ▶ git --help`
 
@@ -79,7 +79,7 @@ Branch 'main' set up to track remote branch 'main' from 'origin'.
 
 ---
 
-### Branch
+## Branch
 
 `└─ $ ▶ git branch`
 
@@ -195,11 +195,15 @@ Date:   Sat May 21 11:38:52 2022 +0200
 
 **Searches for commits by a specified author. The \<pattern\> argument can be a string or a regex.**
            
-`└─ $ ▶git log --author="pattern" `
+`└─ $ ▶ git log --author="pattern" `
            
 **Searches for commits with a commit message. The \<pattern\> argument can be a string or a regex.**
 
-`└─ $ ▶git log --grep="<pattern>" `
+`└─ $ ▶ git log --grep="<pattern>" `
+
+**Displays only commits that occur between \<since\> and \<until\> arguments. Both can be either a commit ID, a branch name, HEAD, or any other kind of revision reference.**
+
+`└─ $ ▶ git log <since>..<until>`
 
 **What’s happening: git reflog is an amazing resource for recovering project history. You can recover almost anything—anything you’ve committed—via the reflog.**
 
