@@ -1,13 +1,13 @@
 
 
 
-	 ██████╗ ██╗████████╗     ██╗ ██████╗███╗   ███╗██████╗ ██╗ 
-	██╔════╝ ██║╚══██╔══╝    ██╔╝██╔════╝████╗ ████║██╔══██╗╚██╗
-	██║  ███╗██║   ██║       ██║ ██║     ██╔████╔██║██║  ██║ ██║
-	██║   ██║██║   ██║       ██║ ██║     ██║╚██╔╝██║██║  ██║ ██║
-	╚██████╔╝██║   ██║       ╚██╗╚██████╗██║ ╚═╝ ██║██████╔╝██╔╝
-	 ╚═════╝ ╚═╝   ╚═╝        ╚═╝ ╚═════╝╚═╝     ╚═╝╚═════╝ ╚═╝ 
-                                                            
+       ██████╗ ██╗████████╗     ██╗ ██████╗███╗   ███╗██████╗ ██╗ 
+      ██╔════╝ ██║╚══██╔══╝    ██╔╝██╔════╝████╗ ████║██╔══██╗╚██╗
+      ██║  ███╗██║   ██║       ██║ ██║     ██╔████╔██║██║  ██║ ██║
+      ██║   ██║██║   ██║       ██║ ██║     ██║╚██╔╝██║██║  ██║ ██║
+      ╚██████╔╝██║   ██║       ╚██╗╚██████╗██║ ╚═╝ ██║██████╔╝██╔╝
+       ╚═════╝ ╚═╝   ╚═╝        ╚═╝ ╚═════╝╚═╝     ╚═╝╚═════╝ ╚═╝ 
+
 
 
 
@@ -30,7 +30,7 @@
 
 `└─ $ ▶ git config --global user.email "e-mail"`
 
-**Switch to virtualenv**
+## Switch to virtualenv
 
 `└─ $ ▶ virtualenv --version`
 
@@ -41,6 +41,7 @@
 `└─ $ ▶ cd nomdudossier/`
 
 ## Renaming the Local master Branch to main
+
 `└─ $ ▶ git branch -m master main`
 `└─ $ ▶ git branch`
 `└─ $ ▶ git status`
@@ -51,11 +52,11 @@
 
 **Return**
 
-"""
+``` 
 ...
  * [new branch]      main -> main
 Branch 'main' set up to track remote branch 'main' from 'origin'.
-"""
+```
 
 ---
 
@@ -103,6 +104,8 @@ or
 
 `└─ $ ▶ git push --delete origin branch_name_here`
 
+**Return**
+
  - [deleted]         newname
 
 
@@ -140,8 +143,9 @@ or
 
 `└─ $ ▶ git log --graph --oneline --all`
 
+**Return**
 
-"""
+```
 * 18d997e (HEAD -> seconduser, origin/seconduser) file modified
 * 92f83a8 (origin/master, origin/HEAD, main) delete files
 *   75c5eff some changes
@@ -165,13 +169,16 @@ or
 * | | fe0240f file4.txt changes
 * | | e8dc3ca new file added
 | |/  
-"""
+```
 
-$ git log --stat 	Includes changed files and the number of added or deleted lines from them besides the git log information. 
+`└─ $ ▶ git log --stat`
 
+Includes changed files and the number of added or deleted lines from them besides the git log information. 
 
 What’s happening: git reflog is an amazing resource for recovering project history. You can recover almost anything—anything you’ve committed—via the reflog.
-$ git reflog
+
+`└─ $ ▶ git reflog`
+
 ---
 
 rebase & stash
