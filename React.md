@@ -1,12 +1,4 @@
-   dBBBBBb    dBBBP dBBBBBb     dBBBP dBBBBBBP
-       dBP               BB                   
-   dBBBBK'  dBBP     dBP BB   dBP      dBP    
-  dBP  BB  dBP      dBP  BB  dBP      dBP     
- dBP  dB' dBBBBP   dBBBBBBB dBBBBP   dBP      
-                                              
-
-                                                
-                                                                
+                                             
 # INSTALL REACT
 
 
