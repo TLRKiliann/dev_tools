@@ -19,7 +19,7 @@
 ```
 
 ```diff
-- # Install Git
+- Install Git
 ```
 
 `└─ $ ▶ mkdir folder_name`
