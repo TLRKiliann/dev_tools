@@ -61,6 +61,7 @@ Return
 Branch 'main' set up to track remote branch 'main' from 'origin'.
 ```
 
+---
 
 ### Basic
 
@@ -76,6 +77,7 @@ Branch 'main' set up to track remote branch 'main' from 'origin'.
 
 `└─ $ ▶ git push -u origin name_of_branch sender`
 
+---
 
 ### Branch
 
@@ -128,6 +130,7 @@ Return
 
 `└─ $ ▶ git push --delete origin branch_name_here`
 
+---
 
 ### Log
 
