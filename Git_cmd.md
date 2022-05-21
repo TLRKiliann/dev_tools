@@ -134,6 +134,10 @@ Return
 
 ## Log
 
+Suppose we want to see the changes made to the “main.py” file in our code. We could do so using the following command:
+
+`└─ $ ▶ git log -- main.py`
+
 `└─ $ ▶ git log <hash_number>`
 
 **The three most recent commit**
@@ -205,9 +209,19 @@ Date:   Sat May 21 11:38:52 2022 +0200
 
 `└─ $ ▶ git log <since>..<until>`
 
+`└─ $ ▶ git log --before="yesterday"`
+
+`└─ $ ▶ git log --after="2022-19-5"`
+
 **What’s happening: git reflog is an amazing resource for recovering project history. You can recover almost anything—anything you’ve committed—via the reflog.**
 
 `└─ $ ▶ git reflog`
+
+### Combined
+
+`└─ $ ▶ git log --oneline master..some-feature`
+
+`└─ $ ▶ git log --after="2022-19-5" --before="2019-3-19"`
 
 ---
 
