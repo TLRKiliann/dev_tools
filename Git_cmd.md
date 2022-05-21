@@ -40,6 +40,23 @@
 
 `└─ $ ▶ cd nomdudossier/`
 
+## Renaming the Local master Branch to main
+`└─ $ ▶ git branch -m master main`
+`└─ $ ▶ git branch`
+`└─ $ ▶ git status`
+
+**To verify**
+
+`└─ $ ▶ git push -u origin main`
+
+**Return**
+
+"""
+...
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+"""
+
 ---
 
 ### Basic
