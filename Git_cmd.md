@@ -9,7 +9,11 @@
            ╚═════╝ ╚═╝   ╚═╝        ╚═╝ ╚═════╝╚═╝     ╚═╝╚═════╝ ╚═╝ 
 
 
+<font color='red'>test blue color font</font>
 
+- ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `#f03c15`
+- ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `#c5f015`
+- ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `#1589F0`
 
 # Install Git
 
@@ -52,7 +56,7 @@
 
 `└─ $ ▶ git push -u origin main`
 
-**Return**
+Return
 
 ``` 
 ...
@@ -106,7 +110,7 @@ or
 
 `└─ $ ▶ git push --delete origin branch_name_here`
 
-**Return**
+Return
 
  - [deleted]         newname
 
@@ -145,7 +149,7 @@ or
 
 `└─ $ ▶ git log --graph --oneline --all`
 
-**Return**
+Return
 
 ```
 * 18d997e (HEAD -> seconduser, origin/seconduser) file modified
@@ -173,18 +177,28 @@ or
 | |/  
 ```
 
+**Includes changed files and the number of added or deleted lines from them besides the git log information.**
+
 `└─ $ ▶ git log --stat`
 
-Includes changed files and the number of added or deleted lines from them besides the git log information. 
+Return
 
-What’s happening: git reflog is an amazing resource for recovering project history. You can recover almost anything—anything you’ve committed—via the reflog.
+```
+commit ab30fa84b50394da345567802925b01b8f4eabcc0
+Author: Name <name@mail.com>
+Date:   Sat May 21 11:38:52 2022 +0200
+
+    some cmd added
+
+ Git_cmd.md | 35 +++++++++++++++++++++--------------
+ 1 file changed, 21 insertions(+), 14 deletions(-)
+ ```
+
+
+**What’s happening: git reflog is an amazing resource for recovering project history. You can recover almost anything—anything you’ve committed—via the reflog.**
 
 `└─ $ ▶ git reflog`
 
 ---
 
 rebase & stash
-
-
-
-
