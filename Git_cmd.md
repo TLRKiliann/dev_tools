@@ -41,7 +41,7 @@ Use `/lib/` to hidden your directory, you can use `.log` for files ending with .
 
 After it, you can use :
 
-`└─ $ git co -m "changes in my directory"`
+`└─ $ git co name_of_branch`
 
 - Create the alias dog for showing the log graph
 
