@@ -23,19 +23,23 @@
 
 `└─ $ ▶ nano .gitignore`
 
+Use `/lib/` to hidden your directory, you can use `.log` for files ended by .log.
 
+**Alias**
 
-
-
-**You need the git config alias command. Execute the following in a Git repository**
+- You need the git config alias command. Execute the following in a Git repository
 
 `└─ $ ▶ git config alias.ci commit`
 
-**For global alias**
+- For global alias
 
 `└─ $ ▶ git config --global alias.ci commit`
 
+- To show all about your branch with config
 
+`└─ $ ▶ git config --list --show-origin`
+
+file:/home/your_username/.gitconfig
 
 
 ## Git & Virtualenv
