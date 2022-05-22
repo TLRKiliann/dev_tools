@@ -27,7 +27,7 @@
 `└─ $ ▶ git config --global user.email "e-mail"`
 
 
-### Configuration
+# Configuration
 
 
 **Git & Virtualenv**
@@ -152,7 +152,7 @@ file:.git/config        alias.ci=commit
 
 ---
 
-## Basic
+# Basic
 
 `└─ $ ▶ git --help`
 
@@ -168,7 +168,7 @@ file:.git/config        alias.ci=commit
 
 ---
 
-## Branch
+# Branch
 
 `└─ $ ▶ git branch`
 
@@ -206,14 +206,14 @@ Return
 `└─ $ ▶ git merge branch_name`
 
 
-### How to abort a conflicting merge in Git:
+## How to abort a conflicting merge in Git:
 
 **If you want to throw a merge away and start over, you can run the following command :**
 
 `└─ $ ▶ git merge --abort`
 
 
-### How to remove a remote branch in Git:
+## How to remove a remote branch in Git:
 
 **If you no longer need a remote branch you can remove it using the command below :**
 
@@ -221,7 +221,7 @@ Return
 
 ---
 
-## Log
+# Log
 
 **Suppose we want to see the changes made to the “main.py” file in our code. We could do so using the following command**
 
@@ -322,7 +322,7 @@ Date:   Sat May 21 11:38:52 2022 +0200
 
 ---
 
-## Rebase
+# Rebase
 
 **To modify a commit**
 
@@ -330,11 +330,11 @@ Date:   Sat May 21 11:38:52 2022 +0200
 
 ---
 
-## Stash
+# Stash
 
 ---
 
-## Amend
+# Amend
 
 1. Changing the Last Commit: 
 
@@ -342,13 +342,13 @@ Date:   Sat May 21 11:38:52 2022 +0200
 
 2. Edit hello.py and main.py
 
-`└─ $ ▶ git add hello.py
-`└─ $ ▶ git commit 
+`└─ $ ▶ git add hello.py`
+`└─ $ ▶ git commit`
 
 3. Realize you forgot to add the changes from main.py 
 
-`└─ $ ▶ git add main.py 
-`└─ $ ▶ git commit --amend --no-edit
+`└─ $ ▶ git add main.py`
+`└─ $ ▶ git commit --amend --no-edit`
 
 
 
