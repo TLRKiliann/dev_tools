@@ -35,15 +35,23 @@ Use `/lib/` to hidden your directory, you can use `.log` for files ending with .
 
 `└─ $ ▶ git config --global alias.ci commit`
 
-To enter new configuration
+- To enter new configuration
 
 `└─ $ ▶ git config --global alias.co checkout`
+
+After it, you can use :
+
+`└─ $ git co -m "changes in my directory"`
 
 - Create the alias dog for showing the log graph
 
 `└─ $ git config --global alias.dog "log --all --decorate --oneline --graph"`
 
-- To show all about your branch with config
+After it, you can use :
+
+`└─ $ git dog`
+
+- To show all about your branch with git config
 
 `└─ $ ▶ git config --list --show-origin`
 
@@ -68,6 +76,15 @@ file:.git/config        alias.ci=commit
 
 `└─ $ ▶ cat /home/your_username/.gitconfig`
 
+```
+[user]
+	name = TLRKiliann
+	email = philogenie@protonmail.com
+[alias]
+	ci = commit
+	co = checkout
+	dog = log --all --decorate --oneline --graph
+```
 
 ## Git & Virtualenv
 
