@@ -318,3 +318,22 @@ Date:   Sat May 21 11:38:52 2022 +0200
 ---
 
 ## Amend
+
+1. Changing the Last Commit: 
+
+`└─ $ ▶ git commit --amend`
+
+2. Edit hello.py and main.py
+
+`└─ $ ▶ git add hello.py
+`└─ $ ▶ git commit 
+
+3. Realize you forgot to add the changes from main.py 
+
+`└─ $ ▶ git add main.py 
+`└─ $ ▶ git commit --amend --no-edit
+
+
+
+
+
