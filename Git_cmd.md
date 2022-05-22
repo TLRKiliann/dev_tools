@@ -340,6 +340,18 @@ To view branches that contain jobs that have not yet been merged, you can use th
 
 # Rebase
 
+## Very clear & good graphic concepts
+
+https://git-scm.com/book/fr/v2/Les-branches-avec-Git-Rebaser-Rebasing
+
+## !!! Never rebase commits that have already been pushed to a public repository !!!
+
+Rebase with branch
+
+merge & rebase
+
+`└─ $ ▶ git rebase --onto master serveur client`
+
 **To modify a commit**
 
 `└─ $ ▶ git rebase --interactive 'bbc643cd^'`
