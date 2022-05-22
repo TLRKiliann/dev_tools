@@ -62,7 +62,6 @@ file:.git/config        remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
 file:.git/config        branch.main.remote=origin
 file:.git/config        branch.main.merge=refs/heads/main
 file:.git/config        alias.ci=commit
-
 ```
 
 - To see the settings entered
