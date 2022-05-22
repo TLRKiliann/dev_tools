@@ -21,7 +21,19 @@
 
 `└─ $ ▶ nano .gitignore`
 
-`└─ $ ▶ git config --global alias`
+
+
+
+
+**You need the git config alias command. Execute the following in a Git repository**
+
+`└─ $ ▶ git config alias.ci commit`
+
+**For global alias**
+
+`└─ $ ▶ git config --global alias.ci commit`
+
+
 
 
 ## Git & Virtualenv
