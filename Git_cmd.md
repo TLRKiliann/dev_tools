@@ -34,6 +34,13 @@
 
 `└─ $ ▶ git config --global user.email "e-mail"`
 
+To verif name
+
+`└─ $ ▶ git config user.name`
+
+To verify email
+
+`└─ $ ▶ git config user.email`
 
 **Switch to virtualenv**
 
