@@ -16,13 +16,23 @@
 
 `└─ $ ▶ cd folder_name`
 
+**First time**
+
+`└─ $ ▶ sudo apt install git-all`
+
 `└─ $ ▶ git clone "https.."`
+
+`└─ $ ▶ git config --global user.name "pseudo"`
+
+`└─ $ ▶ git config --global user.email "e-mail"`
 
 
 ### Configuration
 
 
 **Git & Virtualenv**
+
+**First time**
 
 `└─ $ ▶ sudo apt install git-all`
 
