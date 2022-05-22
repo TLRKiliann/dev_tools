@@ -17,6 +17,13 @@
 `└─ $ ▶ cd folder_name`
 
 
+## Configuration
+
+`└─ $ ▶ nano .gitignore`
+
+`└─ $ ▶ git config --global alias`
+
+
 ## Git & Virtualenv
 
 `└─ $ ▶ sudo apt install git-all`
