@@ -172,6 +172,10 @@ file:.git/config        alias.ci=commit
 
 `└─ $ ▶ git branch`
 
+Display all branch
+
+`└─ $ ▶ git branch --all`
+
 **Create a branch**
 
 `└─ $ ▶ git branch new_name`
@@ -322,6 +326,18 @@ Date:   Sat May 21 11:38:52 2022 +0200
 
 ---
 
+# Merge
+
+Display branch merged 
+
+`└─ $ ▶ git branch --merged`
+
+To view branches that contain jobs that have not yet been merged, you can use the git branch --no-merged command:
+
+`└─ $ ▶ git branch --no-merged`
+
+---
+
 # Rebase
 
 **To modify a commit**
@@ -350,7 +366,20 @@ Date:   Sat May 21 11:38:52 2022 +0200
 `└─ $ ▶ git add main.py`
 `└─ $ ▶ git commit --amend --no-edit`
 
+$ git push --set-upstream origin main
 
 
+# Push
+
+Pour avertir les autres de cette branch main, vous devez la pousser sur le serveur distant Cela rend la branche renommée disponible sur le serveur distant.
+
+$ git push --set-upstream origin main
+
+
+
+
+Après toutes ces tâches, et s’être assuré que la branche main se comporte comme la branche master, vous pouvez supprimer la branche master :
+
+$ git push origin --delete master
 
 
