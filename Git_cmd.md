@@ -301,6 +301,8 @@ Date:   Sat May 21 11:38:52 2022 +0200
 
 `└─ $ ▶ git log --after="2022-19-5" --before="2019-3-19"`
 
+`└─ $ ▶ diff --name-only --diff-filter=U`
+
 ---
 
 ## Rebase
