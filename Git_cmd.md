@@ -19,11 +19,58 @@
 `└─ $ ▶ git clone "https.."`
 
 
-## Configuration
+### Configuration
+
+
+### Git & Virtualenv
+
+`└─ $ ▶ sudo apt install git-all`
+
+`└─ $ ▶ git init`
+
+`└─ $ ▶ git clone https://...`
+
+`└─ $ ▶ git config --global user.name "pseudo"`
+
+`└─ $ ▶ git config --global user.email "e-mail"`
+
+
+### Switch to virtualenv
+
+`└─ $ ▶ virtualenv --version`
+
+`└─ $ ▶ virtualenv folder_name` 
+
+`└─ $ ▶ source folder_name/bin/activate`
+
+`└─ $ ▶ cd folder_name/`
+
+
+### Renaming the Local master Branch to main
+
+`└─ $ ▶ git branch -m master main`
+
+`└─ $ ▶ git branch`
+
+`└─ $ ▶ git status`
+
+**To verify**
+
+`└─ $ ▶ git push -u origin main`
+
+Return
+
+``` 
+...
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+```
 
 `└─ $ ▶ nano .gitignore`
 
 Use `/lib/` to hidden your directory, you can use `.log` for files ending with .log.
+
+---
 
 **Alias**
 
@@ -84,50 +131,6 @@ file:.git/config        alias.ci=commit
 	ci = commit
 	co = checkout
 	dog = log --all --decorate --oneline --graph
-```
-
-## Git & Virtualenv
-
-`└─ $ ▶ sudo apt install git-all`
-
-`└─ $ ▶ git init`
-
-`└─ $ ▶ git clone https://...`
-
-`└─ $ ▶ git config --global user.name "pseudo"`
-
-`└─ $ ▶ git config --global user.email "e-mail"`
-
-
-## Switch to virtualenv
-
-`└─ $ ▶ virtualenv --version`
-
-`└─ $ ▶ virtualenv folder_name` 
-
-`└─ $ ▶ source folder_name/bin/activate`
-
-`└─ $ ▶ cd folder_name/`
-
-
-## Renaming the Local master Branch to main
-
-`└─ $ ▶ git branch -m master main`
-
-`└─ $ ▶ git branch`
-
-`└─ $ ▶ git status`
-
-**To verify**
-
-`└─ $ ▶ git push -u origin main`
-
-Return
-
-``` 
-...
- * [new branch]      main -> main
-Branch 'main' set up to track remote branch 'main' from 'origin'.
 ```
 
 ---
