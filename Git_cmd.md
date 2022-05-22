@@ -65,6 +65,11 @@ file:.git/config        alias.ci=commit
 
 ```
 
+- To see the settings entered
+
+`└─ $ ▶ cat /home/your_username/.gitconfig`
+
+
 ## Git & Virtualenv
 
 `└─ $ ▶ sudo apt install git-all`
