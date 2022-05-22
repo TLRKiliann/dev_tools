@@ -72,7 +72,7 @@ Use `/lib/` to hidden your directory, you can use `.log` for files ending with .
 
 ---
 
-## Alias
+**Alias**
 
 1. You need the git config alias command. Execute the following in a Git repository
 
@@ -295,12 +295,13 @@ Date:   Sat May 21 11:38:52 2022 +0200
 
 `└─ $ ▶ git reflog`
 
-### Combined
+**Combined**
 
 `└─ $ ▶ git log --oneline master..some-feature`
 
 `└─ $ ▶ git log --after="2022-19-5" --before="2019-3-19"`
 
+---
 
 ## Rebase
 
@@ -308,7 +309,10 @@ Date:   Sat May 21 11:38:52 2022 +0200
 
 `└─ $ ▶ git rebase --interactive 'bbc643cd^'`
 
+---
 
-stash
+## Stash
 
-amend
+---
+
+## Amend
