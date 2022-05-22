@@ -35,11 +35,15 @@ Use `/lib/` to hidden your directory, you can use `.log` for files ended by .log
 
 `└─ $ ▶ git config --global alias.ci commit`
 
+To enter new configuration
+
+`└─ $ ▶ git config --global alias.co checkout`
+
 - To show all about your branch with config
 
 `└─ $ ▶ git config --list --show-origin`
 
-file:/home/your_username/.gitconfig
+*file:/home/your_username/.gitconfig*
 
 
 ## Git & Virtualenv
