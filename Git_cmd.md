@@ -22,7 +22,7 @@
 ### Configuration
 
 
-### Git & Virtualenv
+**Git & Virtualenv**
 
 `└─ $ ▶ sudo apt install git-all`
 
@@ -35,7 +35,7 @@
 `└─ $ ▶ git config --global user.email "e-mail"`
 
 
-### Switch to virtualenv
+**Switch to virtualenv**
 
 `└─ $ ▶ virtualenv --version`
 
@@ -46,7 +46,7 @@
 `└─ $ ▶ cd folder_name/`
 
 
-### Renaming the Local master Branch to main
+**Renaming the Local master Branch to main**
 
 `└─ $ ▶ git branch -m master main`
 
@@ -72,7 +72,7 @@ Use `/lib/` to hidden your directory, you can use `.log` for files ending with .
 
 ---
 
-**Alias**
+## Alias
 
 1. You need the git config alias command. Execute the following in a Git repository
 
