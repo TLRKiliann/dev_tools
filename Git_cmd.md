@@ -23,7 +23,7 @@
 
 `└─ $ ▶ nano .gitignore`
 
-Use `/lib/` to hidden your directory, you can use `.log` for files ended by .log.
+Use `/lib/` to hidden your directory, you can use `.log` for files ending with .log.
 
 **Alias**
 
