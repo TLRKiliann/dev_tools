@@ -16,6 +16,8 @@
 
 `└─ $ ▶ cd folder_name`
 
+`└─ $ ▶ git clone "https.."`
+
 
 ## Configuration
 
