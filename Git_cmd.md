@@ -39,12 +39,31 @@ To enter new configuration
 
 `└─ $ ▶ git config --global alias.co checkout`
 
+- Create the alias dog for showing the log graph
+
+`└─ $ git config --global alias.dog "log --all --decorate --oneline --graph"`
+
 - To show all about your branch with config
 
 `└─ $ ▶ git config --list --show-origin`
 
-*file:/home/your_username/.gitconfig*
+```
+file:/home/your_username/.gitconfig   user.name=TLRKiliann
+file:/home/your_username/.gitconfig   user.email=philogenie@protonmail.com
+file:/home/your_username/.gitconfig   alias.ci=commit
+file:/home/your_username/.gitconfig   alias.co=checkout
+file:/home/your_username/.gitconfig   alias.dog=log --all --decorate --oneline --graph
+file:.git/config        core.repositoryformatversion=0
+file:.git/config        core.filemode=true
+file:.git/config        core.bare=false
+file:.git/config        core.logallrefupdates=true
+file:.git/config        remote.origin.url=git@github.com:TLRKiliann/git-cmd.git
+file:.git/config        remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+file:.git/config        branch.main.remote=origin
+file:.git/config        branch.main.merge=refs/heads/main
+file:.git/config        alias.ci=commit
 
+```
 
 ## Git & Virtualenv
 
