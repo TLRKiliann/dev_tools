@@ -385,15 +385,18 @@ From "another" branch with patch to update main branch
 2. Edit hello.py and main.py
 
 `└─ $ ▶ git add hello.py`
+
 `└─ $ ▶ git commit`
 
 3. Realize you forgot to add the changes from main.py 
 
 `└─ $ ▶ git add main.py`
+
 `└─ $ ▶ git commit --amend --no-edit`
 
-$ git push --set-upstream origin main
+`└─ $ ▶ git push --set-upstream origin main`
 
+---
 
 # Push
 
@@ -406,5 +409,12 @@ Après toutes ces tâches, et s’être assuré que la branche main se comporte 
 
 `└─ $ ▶ git push origin --delete master`
 
+---
 
 Best combinaisons
+
+After modifying or editing a file
+
+`└─ $ ▶ git diff` (with optional filename.etc)
+	
+`└─ $ ▶ git commit branch --merged` or --no-merged
