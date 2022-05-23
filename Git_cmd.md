@@ -177,30 +177,29 @@ file:.git/config        alias.ci=commit
 
 `└─ $ ▶ git branch`
 
-Display all branch
+1. Display all branch
 
 `└─ $ ▶ git branch --all`
 
-**Create a branch**
+2. Create a branch
 
 `└─ $ ▶ git branch new_name`
 
 or
 
-**Create & switch at same time to new branch**
+3. Create & switch at same time to new branch
 
 `└─ $ ▶ git checkout -b new_name`
 
-**Switch branch**
+4. Switch branch
 
 `└─ $ ▶ git checkout new_name`
 
-
-**Delete branch**
+5. Delete branch
 
 `└─ $ ▶ git branch -d branch_name`
 
-**How to remove a remote branch in Git**
+6. How to remove a remote branch in Git
 *If you no longer need a remote branch you can remove it using the command below:*
 
 `└─ $ ▶ git push --delete origin branch_name_here`
@@ -355,23 +354,19 @@ Date:   Sat May 21 11:38:52 2022 +0200
 
 # Rebase
 
-## Very clear & good graphic concepts
+## Look at this page below. Very clear & good graphic concepts.
 
 https://git-scm.com/book/fr/v2/Les-branches-avec-Git-Rebaser-Rebasing
 
+## Warning with merge & rebase, possible conflicts
+	
 ## !!! Never rebase commits that have already been pushed to a public repository !!!
 
-**But don't panic there always possible to undo with :**
+**But don't panic there always possible to undo with these two commands :**
 
 `└─ $ ▶ git merge --abort`
 
-or with
-
 `└─ $ ▶ git rebase --abort`
-
-# Rebase with branch
-
-## Warning with merge & rebase, possible conflicts
 
 **From <another> branch with patch to update main branch**
 
@@ -427,7 +422,7 @@ Après toutes ces tâches, et s’être assuré que la branche main se comporte 
 
 ---
 
-# Best combinaisons
+# USEFULL COMMANDS
 
 **After modifying or editing a file**
 
@@ -440,6 +435,14 @@ Après toutes ces tâches, et s’être assuré que la branche main se comporte 
 `└─ $ ▶ git commit branch --merged`
 
 `└─ $ ▶ git commit branch --no-merged`
+
+To abord conflicts
+
+`└─ $ ▶ git merge --abort`
+
+`└─ $ ▶ git rebase --abort`
+
+---
 
 # SSH
 
