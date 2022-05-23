@@ -20,7 +20,9 @@
 
 `└─ $ ▶ sudo apt install git-all`
 
-`└─ $ ▶ git clone "https.."`
+`└─ $ ▶ git clone "https.."` (from ssh or https)
+
+`└─ $ ▶ git init`
 
 `└─ $ ▶ git config --global user.name "pseudo"`
 
@@ -155,6 +157,10 @@ file:.git/config        alias.ci=commit
 # Basic
 
 `└─ $ ▶ git --help`
+
+`└─ $ ▶ git diff`
+
+`└─ $ ▶ git diff file_name.(py,txt,etc)`
 
 `└─ $ ▶ git status` 
 
@@ -294,7 +300,7 @@ Date:   Sat May 21 11:38:52 2022 +0200
  
 **Shows the patch for each commit as well as their full diff.**
 
-`└─ $ ▶ git log -p`
+`└─ $ ▶ git log -p` (you can use <git add -p> to add patch)
 
 **Searches for commits by a specified author. The \<pattern\> argument can be a string or a regex.**
            
@@ -328,7 +334,7 @@ Date:   Sat May 21 11:38:52 2022 +0200
 
 # Merge
 
-Display branch merged 
+**Display branch merged**
 
 `└─ $ ▶ git branch --merged`
 
@@ -346,9 +352,17 @@ https://git-scm.com/book/fr/v2/Les-branches-avec-Git-Rebaser-Rebasing
 
 ## !!! Never rebase commits that have already been pushed to a public repository !!!
 
-Rebase with branch
 
-merge & rebase
+# Rebase with branch
+
+## Warning with merge & rebase, possible conflicts
+
+From "another" branch with patch to update main branch 
+
+`└─ $ ▶ git rebase main`
+*(then git checkout main & git merge "another")*
+
+**With 3 branch**
 
 `└─ $ ▶ git rebase --onto master serveur client`
 
@@ -385,13 +399,12 @@ $ git push --set-upstream origin main
 
 Pour avertir les autres de cette branch main, vous devez la pousser sur le serveur distant Cela rend la branche renommée disponible sur le serveur distant.
 
-$ git push --set-upstream origin main
-
-
+`└─ $ ▶ git push --set-upstream origin main`
 
 
 Après toutes ces tâches, et s’être assuré que la branche main se comporte comme la branche master, vous pouvez supprimer la branche master :
 
-$ git push origin --delete master
+`└─ $ ▶ git push origin --delete master`
 
 
+Best combinaisons
