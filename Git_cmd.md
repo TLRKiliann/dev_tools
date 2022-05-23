@@ -411,10 +411,16 @@ Après toutes ces tâches, et s’être assuré que la branche main se comporte 
 
 ---
 
-Best combinaisons
+# Best combinaisons
 
-After modifying or editing a file
+**After modifying or editing a file**
 
 `└─ $ ▶ git diff` (with optional filename.etc)
-	
-`└─ $ ▶ git commit branch --merged` or --no-merged
+
+---
+
+**To see all merged or no merged commit**
+
+`└─ $ ▶ git commit branch --merged`
+
+`└─ $ ▶ git commit branch --no-merged`
