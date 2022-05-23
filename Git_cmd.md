@@ -352,24 +352,6 @@ Date:   Sat May 21 11:38:52 2022 +0200
 
 `└─ $ ▶ git reflog (--all)`
 
----	
-	
-# Combined
-
-`└─ $ ▶ git log --oneline master..some-feature`
-
-`└─ $ ▶ git log --after="2022-19-5" --before="2019-3-19"`
-
-`└─ $ ▶ diff --name-only --diff-filter=U`
-
-```
-└─ $ ▶ git config --global alias.co checkout
-└─ $ ▶ git config --global alias.ci commit
-└─ $ ▶ git config --global alias.br branch
-└─ $ ▶ git config --global alias.me merge
-└─ $ ▶ git config --global alias.re rebase
-```
-
 ---
 
 # Merge
@@ -441,7 +423,7 @@ https://git-scm.com/book/fr/v2/Les-branches-avec-Git-Rebaser-Rebasing
 
 ---
 
-# USEFULL COMMANDS
+# USEFULL COMMANDS	
 
 **After modifying or editing a file**
 
@@ -450,6 +432,20 @@ https://git-scm.com/book/fr/v2/Les-branches-avec-Git-Rebaser-Rebasing
 `└─ $ ▶ git commit --amend`
 
 `└─ $ ▶ git commit --amend --no-edit`
+	
+`└─ $ ▶ git log --oneline master..some-feature`
+
+`└─ $ ▶ git log --after="2022-19-5" --before="2019-3-19"`
+
+`└─ $ ▶ diff --name-only --diff-filter=U`
+
+```
+└─ $ ▶ git config --global alias.co checkout
+└─ $ ▶ git config --global alias.ci commit
+└─ $ ▶ git config --global alias.br branch
+└─ $ ▶ git config --global alias.me merge
+└─ $ ▶ git config --global alias.re rebase
+```
 
 ---
 
