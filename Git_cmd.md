@@ -435,10 +435,14 @@ Après toutes ces tâches, et s’être assuré que la branche main se comporte 
 
 `└─ $ ▶ ssh-keygen -t rsa -b 4096 -C "emailgithub@github.com"`
 	
-Then add a name if you wish.
+Then add a name if you wish. \
 Enter a passphrase at the end (more secure)
 
-`└─ $ ▶ ssh-add -K ~/.ssh/`
+`└─ $ ▶ eval $(ssh-agent -s)`
+
+The output of ssh-agent -s is some environment variable assignments, something like SSH_AUTH_SOCK=blahblah; export SSH_AUTH_SOCK etc. When you run eval $(ssh-agent -s), the shell executes that as code, and those variables get set in that shell. The variables there contain the information ssh-add needs to contact the agent, and they get inherited down from the shell to the ssh-add process.
+	
+`└─ $ ▶ ssh-add (optional name of the key)`
 
 1. Copy the public key (rsa.pub) in GitHub repository (settings > Deploy key)
 2. Check the box `Allow write access`.
