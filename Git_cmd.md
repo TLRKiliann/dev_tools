@@ -215,6 +215,9 @@ Return
 
 `└─ $ ▶ git merge branch_name`
 
+**If there is conflict**
+
+`└─ $ ▶git merge --abort`
 
 ## How to abort a conflicting merge in Git:
 
@@ -358,6 +361,13 @@ https://git-scm.com/book/fr/v2/Les-branches-avec-Git-Rebaser-Rebasing
 
 ## !!! Never rebase commits that have already been pushed to a public repository !!!
 
+**But don't panic there always possible to undo with :**
+
+`└─ $ ▶ git merge --abort`
+
+or with
+
+`└─ $ ▶ git rebase --abort`
 
 # Rebase with branch
 
