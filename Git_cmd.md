@@ -300,9 +300,10 @@ Date:   Sat May 21 11:38:52 2022 +0200
  1 file changed, 21 insertions(+), 14 deletions(-)
  ```
  
-**Shows the patch for each commit as well as their full diff.**
+**Shows the patch for each commit as well as their full diff**
 
 `└─ $ ▶ git log -p`
+
 (you can use <git add -p> to add patch)
 
 **Searches for commits by a specified author. The \<pattern\> argument can be a string or a regex.**
@@ -313,7 +314,8 @@ Date:   Sat May 21 11:38:52 2022 +0200
 
 `└─ $ ▶ git log --grep="<pattern>" `
 
-**Displays only commits that occur between \<since\> and \<until\> arguments. Both can be either a commit ID, a branch name, HEAD, or any other kind of revision reference.**
+**Displays only commits that occur between \<since\> and \<until\> arguments. Both can be either a commit ID, a branch name, HEAD, or any other** \
+**kind of revision reference.**
 
 `└─ $ ▶ git log <since>..<until>`
 
@@ -321,9 +323,13 @@ Date:   Sat May 21 11:38:52 2022 +0200
 
 `└─ $ ▶ git log --after="2022-19-5"`
 
-**What’s happening: git reflog is an amazing resource for recovering project history. You can recover almost anything—anything you’ve committed—via the reflog**
+---
+	
+# Reflog
+	
+**git reflog is an amazing resource for recovering project history. You can recover almost anything—anything you’ve committed—via the reflog**
 
-`└─ $ ▶ git reflog`
+`└─ $ ▶ git reflog (--all)`
 
 	
 	
@@ -465,4 +471,26 @@ The output of ssh-agent -s is some environment variable assignments, something l
 5. In you local machine enter
 
 `└─ $ ▶ git clone <ssh copied from btn code>`
+
+----
+	
+# Processus GitHub
+	
+https://git-scm.com/book/fr/v2/GitHub-Contribution-%C3%A0-un-projet
+
+    1. Duplication du projet.
+
+    2. Création d’une branche thématique à partir de la branche master,
+
+    3. validation de quelques améliorations (commit),
+
+    4. poussée de la branche thématique sur votre projet GitHub (push),
+
+    5. ouverture d’une requête de tirage sur GitHub (Pull Request),
+
+    6. discussion et éventuellement possibilité de nouvelles validations (commit).
+
+    7. Le propriétaire du projet fusionne (merge) ou ferme (close) la requête de tirage.
+
+    8. Synchronisation de la branche master mise à jour avec celle de votre propre dépôt.
 
