@@ -31,9 +31,9 @@
 
 # Configuration
 
-**Git & Virtualenv**
+## Git & Virtualenv**
 
-**First time**
+First time
 
 `└─ $ ▶ sudo apt install git-all`
 
@@ -53,7 +53,7 @@ To verify email
 
 `└─ $ ▶ git config user.email`
 
-**Switch to virtualenv**
+## Virtualenv
 
 `└─ $ ▶ virtualenv --version`
 
@@ -90,7 +90,7 @@ Use `/lib/` to hidden your directory, you can use `.log` for files ending with .
 
 ---
 
-**Alias**
+## Alias
 
 1. You need the git config alias command. Execute the following in a Git repository
 
@@ -209,6 +209,27 @@ Return
 ```
  - [deleted]         newname
 ```
+
+---
+
+# Push
+
+## Push all commits except the last one
+	
+`└─ $ ▶ git push origin HEAD^:master`
+	
+Pour avertir les autres de cette branch main, vous devez la pousser sur le serveur distant Cela rend la branche renommée disponible sur le serveur distant.
+
+`└─ $ ▶ git push --set-upstream origin main`
+
+
+Après toutes ces tâches, et s’être assuré que la branche main se comporte comme la branche master, vous pouvez supprimer la branche master :
+
+`└─ $ ▶ git branch -d master`
+	
+`└─ $ ▶ git push origin --delete master`
+
+---
 
 **Merge a branch**
 
@@ -331,19 +352,23 @@ Date:   Sat May 21 11:38:52 2022 +0200
 
 `└─ $ ▶ git reflog (--all)`
 
+---	
 	
-	
-	
-	
-	
-	
-**Combined**
+# Combined
 
 `└─ $ ▶ git log --oneline master..some-feature`
 
 `└─ $ ▶ git log --after="2022-19-5" --before="2019-3-19"`
 
 `└─ $ ▶ diff --name-only --diff-filter=U`
+
+```
+└─ $ ▶ git config --global alias.co checkout
+└─ $ ▶ git config --global alias.ci commit
+└─ $ ▶ git config --global alias.br branch
+└─ $ ▶ git config --global alias.me merge
+└─ $ ▶ git config --global alias.re rebase
+```
 
 ---
 
@@ -416,24 +441,15 @@ https://git-scm.com/book/fr/v2/Les-branches-avec-Git-Rebaser-Rebasing
 
 ---
 
-# Push
-
-Pour avertir les autres de cette branch main, vous devez la pousser sur le serveur distant Cela rend la branche renommée disponible sur le serveur distant.
-
-`└─ $ ▶ git push --set-upstream origin main`
-
-
-Après toutes ces tâches, et s’être assuré que la branche main se comporte comme la branche master, vous pouvez supprimer la branche master :
-
-`└─ $ ▶ git push origin --delete master`
-
----
-
 # USEFULL COMMANDS
 
 **After modifying or editing a file**
 
 `└─ $ ▶ git diff` (with optional filename.etc)
+
+`└─ $ ▶ git commit --amend`
+
+`└─ $ ▶ git commit --amend --no-edit`
 
 ---
 
