@@ -31,7 +31,6 @@
 
 # Configuration
 
-
 **Git & Virtualenv**
 
 **First time**
@@ -40,7 +39,7 @@
 
 `└─ $ ▶ git init`
 
-`└─ $ ▶ git clone https://...`
+`└─ $ ▶ git clone https://address repository`
 
 `└─ $ ▶ git config --global user.name "pseudo"`
 
@@ -208,8 +207,9 @@ or
 
 Return
 
+```
  - [deleted]         newname
-
+```
 
 **Merge a branch**
 
@@ -318,10 +318,16 @@ Date:   Sat May 21 11:38:52 2022 +0200
 
 `└─ $ ▶ git log --after="2022-19-5"`
 
-**What’s happening: git reflog is an amazing resource for recovering project history. You can recover almost anything—anything you’ve committed—via the reflog.**
+**What’s happening: git reflog is an amazing resource for recovering project history. You can recover almost anything—anything you’ve committed—via the reflog**
 
 `└─ $ ▶ git reflog`
 
+	
+	
+	
+	
+	
+	
 **Combined**
 
 `└─ $ ▶ git log --oneline master..some-feature`
@@ -338,7 +344,7 @@ Date:   Sat May 21 11:38:52 2022 +0200
 
 `└─ $ ▶ git branch --merged`
 
-To view branches that contain jobs that have not yet been merged, you can use the git branch --no-merged command:
+**To view branches that contain jobs that have not yet been merged, you can use the git branch --no-merged command**
 
 `└─ $ ▶ git branch --no-merged`
 
@@ -357,10 +363,10 @@ https://git-scm.com/book/fr/v2/Les-branches-avec-Git-Rebaser-Rebasing
 
 ## Warning with merge & rebase, possible conflicts
 
-From "another" branch with patch to update main branch 
+**From <another> branch with patch to update main branch**
 
 `└─ $ ▶ git rebase main`
-*(then git checkout main & git merge "another")*
+*(then git checkout main & git merge <another>)*
 
 **With 3 branch**
 
@@ -419,8 +425,25 @@ Après toutes ces tâches, et s’être assuré que la branche main se comporte 
 
 ---
 
-**To see all merged or no merged commit**
+**To see all merged or no merged branch**
 
 `└─ $ ▶ git commit branch --merged`
 
 `└─ $ ▶ git commit branch --no-merged`
+
+# SSH
+
+`└─ $ ▶ ssh-keygen -t rsa -b 4096 -C "emailgithub@github.com"`
+	
+Then add a name if you wish.
+Enter a passphrase at the end (more secure)
+
+`└─ $ ▶ ssh-add -K ~/.ssh/`
+
+1. Copy the public key (rsa.pub) in GitHub repository (settings > Deploy key)
+2. Check the box `Allow write access`.
+3. And press add key
+4. Return to your repository & click btn code & copy ssh
+5. In you local machine enter
+`└─ $ ▶ git clone <ssh copied from btn code>`
+
