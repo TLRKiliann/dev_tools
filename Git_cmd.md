@@ -446,8 +446,9 @@ The output of ssh-agent -s is some environment variable assignments, something l
 
 1. Copy the public key (rsa.pub) in GitHub repository (settings > Deploy key)
 2. Check the box `Allow write access`.
-3. And press add key
-4. Return to your repository & click btn code & copy ssh
+3. And press `add key`
+4. Return to your repository & click button (btn) `code` & copy ssh
 5. In you local machine enter
+
 `└─ $ ▶ git clone <ssh copied from btn code>`
 
