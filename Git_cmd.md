@@ -302,7 +302,8 @@ Date:   Sat May 21 11:38:52 2022 +0200
  
 **Shows the patch for each commit as well as their full diff.**
 
-`└─ $ ▶ git log -p` (you can use <git add -p> to add patch)
+`└─ $ ▶ git log -p`
+(you can use <git add -p> to add patch)
 
 **Searches for commits by a specified author. The \<pattern\> argument can be a string or a regex.**
            
@@ -436,7 +437,7 @@ Après toutes ces tâches, et s’être assuré que la branche main se comporte 
 
 `└─ $ ▶ git commit branch --no-merged`
 
-To abord conflicts
+**To abord conflicts**
 
 `└─ $ ▶ git merge --abort`
 
