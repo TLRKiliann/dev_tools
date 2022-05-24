@@ -1,21 +1,18 @@
 
 
 ```
-            ....      ..                       s                                                         
-          +^""888h. ~"888h     ..             :8      .uef^"                                .x~~"*Weu.   
-         8X.  ?8888X  8888f   @L             .88    :d88E              u.      u.    u.    d8Nu.  9888c  
-        '888x  8888X  8888~  9888i   .dL    :888ooo `888E        ...ue888b   x@88k u@88c.  88888  98888  
-        '88888 8888X   "88x: `Y888k:*888. -*8888888  888E .z8k   888R Y888r ^"8888""8888"  "***"  9888%  
-         `8888 8888X  X88x.    888E  888I   8888     888E~?888L  888R I888>   8888  888R        ..@8*"   
-           `*` 8888X '88888X   888E  888I   8888     888E  888E  888R I888>   8888  888R     ````"8Weu   
-          ~`...8888X  "88888   888E  888I   8888     888E  888E  888R I888>   8888  888R    ..    ?8888L 
-           x8888888X.   `%8"   888E  888I  .8888Lu=  888E  888E u8888cJ888    8888  888R  :@88N   '8888N 
-         '%"*8888888h.   "   x888N><888'  ^%888*    888E  888E  "*888*P"    "*88*" 8888" *8888~  '8888F 
-          ~    888888888!`     "88"  888     'Y"    m888N= 888>    'Y"         ""   'Y"   '*8"`   9888%  
-               X888^"""              88F             `Y"   888                              `~===*%"`    
-               `88f                 98"                   J88"                                           
-                88                ./"                     @%                                             
-                ""               ~`                     :"                                               
+ /$$$$$$$              /$$     /$$                            /$$$$$$ 
+| $$__  $$            | $$    | $$                           /$$__  $$
+| $$  \ $$ /$$   /$$ /$$$$$$  | $$$$$$$   /$$$$$$  /$$$$$$$ |__/  \ $$
+| $$$$$$$/| $$  | $$|_  $$_/  | $$__  $$ /$$__  $$| $$__  $$   /$$$$$/
+| $$____/ | $$  | $$  | $$    | $$  \ $$| $$  \ $$| $$  \ $$  |___  $$
+| $$      | $$  | $$  | $$ /$$| $$  | $$| $$  | $$| $$  | $$ /$$  \ $$
+| $$      |  $$$$$$$  |  $$$$/| $$  | $$|  $$$$$$/| $$  | $$|  $$$$$$/
+|__/       \____  $$   \___/  |__/  |__/ \______/ |__/  |__/ \______/ 
+           /$$  | $$                                                  
+          |  $$$$$$/                                                  
+           \______/                                                   
+                                  
 ```
 
 
@@ -29,7 +26,7 @@ It is preferable to install versions higher than python3 in a virtual environmen
 
 You have to be careful when installing pip.
 
-Indeed pip must correspond to the good version of python
+## Indeed pip must correspond to the good version of python
 
 `└─ $ ▶ python3 --version`
 
@@ -38,4 +35,8 @@ Indeed pip must correspond to the good version of python
 `└─ $ ▶ pip3 --version`
 
 > pip 21.3.1 from /usr/local/lib/python3.6/dist-packages/pip (python 3.6)
+
+## Install pip3 with python3 :
+
+`└─ $ ▶ sudo apt-get install python3-pip`
 
