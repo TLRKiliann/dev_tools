@@ -27,3 +27,12 @@ You have to be careful when installing pip.
 ## Install pip3 with python3 :
 
 `└─ $ ▶ sudo apt-get install python3-pip`
+
+## Upgrade pip3 :
+
+`└─ $ ▶ sudo -H pip3 install --upgrade pip`
+
+## Upgrade pip :
+
+`└─ $ ▶ sudo -H pip2 install --upgrade pip`
+
