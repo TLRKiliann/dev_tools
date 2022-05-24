@@ -1,8 +1,30 @@
                                              
-# INSTALL REACT
+                                                                                                  
+                                                                                                  
+            RRRRRRRRRRRRRRRRR                                                                   tttt          
+            R::::::::::::::::R                                                               ttt:::t          
+            R::::::RRRRRR:::::R                                                              t:::::t          
+            RR:::::R     R:::::R                                                             t:::::t          
+              R::::R     R:::::R    eeeeeeeeeeee    aaaaaaaaaaaaa      ccccccccccccccccttttttt:::::ttttttt    
+              R::::R     R:::::R  ee::::::::::::ee  a::::::::::::a   cc:::::::::::::::ct:::::::::::::::::t    
+              R::::RRRRRR:::::R  e::::::eeeee:::::eeaaaaaaaaa:::::a c:::::::::::::::::ct:::::::::::::::::t    
+              R:::::::::::::RR  e::::::e     e:::::e         a::::ac:::::::cccccc:::::ctttttt:::::::tttttt    
+              R::::RRRRRR:::::R e:::::::eeeee::::::e  aaaaaaa:::::ac::::::c     ccccccc      t:::::t          
+              R::::R     R:::::Re:::::::::::::::::e aa::::::::::::ac:::::c                   t:::::t          
+              R::::R     R:::::Re::::::eeeeeeeeeee a::::aaaa::::::ac:::::c                   t:::::t          
+              R::::R     R:::::Re:::::::e         a::::a    a:::::ac::::::c     ccccccc      t:::::t    tttttt
+            RR:::::R     R:::::Re::::::::e        a::::a    a:::::ac:::::::cccccc:::::c      t::::::tttt:::::t
+            R::::::R     R:::::R e::::::::eeeeeeeea:::::aaaa::::::a c:::::::::::::::::c      tt::::::::::::::t
+            R::::::R     R:::::R  ee:::::::::::::e a::::::::::aa:::a cc:::::::::::::::c        tt:::::::::::tt
+            RRRRRRRR     RRRRRRR    eeeeeeeeeeeeee  aaaaaaaaaa  aaaa   cccccccccccccccc          ttttttttttt  
+                                                                                                  
+                                                                                                  
+                                                                                                  
+# Install REACT
 
 
-## !!! Never use npm install -g, use npm install --save-dev !!!
+## !!! Never use npm install -g !!! => use npm install --save-dev !
+## use `npm audit fix --force` with precautions !
 
 ---
 
@@ -62,16 +84,19 @@
 `└─ $ ▶ npm install <package> --save-dev`
 
 
-**Debugging & Testing**
+## Debugging & Testing
+
+**You can use :**
 
 - console.log()
 
 - console of browser
 
-- React Developer Tools (add-ons (google))
+- React Developer Tools (add-ons (google or firefox))
 
-- npm run test
+**With @testing-library/react & Jest**
 
+Install testing lib & jest
 
 `└─ $ ▶ npm install @testing-library/react jest --save-dev`
 
@@ -102,5 +127,9 @@ describe("SearchForm", () => {
   });
 });
 ```
+
+`└─ $ ▶ npm run test`
+
+or
 
 `└─ $ ▶ npm run test -- -t 'utils'`
