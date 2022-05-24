@@ -102,7 +102,7 @@ Use `/lib/` to hidden your directory, you can use `.log` for files ending with .
 
 `└─ $ ▶ git config --global alias.ci commit`
 
-3. To enter new configuration
+2. To enter new configuration
 
 `└─ $ ▶ git config --global alias.co checkout`
 
@@ -110,7 +110,7 @@ After it, you can use :
 
 `└─ $ git co name_of_branch`
 
-4. Create the alias dog for showing the log graph
+3. Create the alias dog for showing the log graph
 
 `└─ $ git config --global alias.dog "log --all --decorate --oneline --graph"`
 
@@ -118,7 +118,7 @@ After it, you can use :
 
 `└─ $ git dog`
 
-5. To show all about your branch with git config
+4. To show all about your branch with git config
 
 `└─ $ ▶ git config --list --show-origin`
 
@@ -139,7 +139,7 @@ file:.git/config        branch.main.merge=refs/heads/main
 file:.git/config        alias.ci=commit
 ```
 
-6. To see the settings entered
+5. To see the settings entered
 
 `└─ $ ▶ cat /home/your_username/.gitconfig`
 
