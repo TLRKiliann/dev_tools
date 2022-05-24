@@ -94,9 +94,11 @@ Use `/lib/` to hidden your directory, you can use `.log` for files ending with .
 
 1. You need the git config alias command. Execute the following in a Git repository
 
+- Localy
+
 `└─ $ ▶ git config alias.ci commit`
 
-2. For global alias
+- For global alias
 
 `└─ $ ▶ git config --global alias.ci commit`
 
