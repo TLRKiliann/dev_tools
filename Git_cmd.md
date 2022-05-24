@@ -31,7 +31,7 @@
 
 # Configuration
 
-## Git & Virtualenv**
+## Git & Virtualenv
 
 First time
 
