@@ -278,6 +278,11 @@ Après toutes ces tâches, et s’être assuré que la branche main se comporte 
 
 `└─ $ ▶ git log --graph --oneline --all`
 
+- You can see commit by hash :
+*(ex: after git log --oneline)*
+
+`└─ $ ▶ git show <hash>`
+
 Return
 
 ```
@@ -399,6 +404,14 @@ https://git-scm.com/book/fr/v2/Les-branches-avec-Git-Rebaser-Rebasing
 
 ---
 
+# Delete a commit
+	
+- Cancel last commit (deleted) :
+
+`└─ $ ▶ git reset --hard HEAD~1`
+	
+---
+
 # Stash
 
 ---
@@ -427,6 +440,14 @@ https://git-scm.com/book/fr/v2/Les-branches-avec-Git-Rebaser-Rebasing
 
 # USEFULL COMMANDS	
 
+- About HEAD^ & HEAD~ :
+	
+```
+    HEAD^ to get the second last commit
+    HEAD^^ to get the third last commit on branch master.
+    HEAD~10 to get the 10th last commit
+```
+	
 - After modifying or editing a file :
 
 `└─ $ ▶ git diff` (with optional filename.etc)
