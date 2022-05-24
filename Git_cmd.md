@@ -425,11 +425,11 @@ https://git-scm.com/book/fr/v2/Les-branches-avec-Git-Rebaser-Rebasing
 
 # USEFULL COMMANDS	
 
-- After modifying or editing a file
+- After modifying or editing a file :
 
 `└─ $ ▶ git diff` (with optional filename.etc)
 
-- Cancel last commit :
+- Cancel last commit (deleted) :
 
 `└─ $ ▶ git reset --hard HEAD~1`
 
