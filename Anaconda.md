@@ -13,50 +13,50 @@
 
 --------
 
-Downloading
+- Downloading \
 https://repo.anaconda.com/archive/Anaconda3-2022.05-Linux-x86_64.sh
 
 ---
 
 Decompile Folder
 
-└─ $ ▶ bash ~/Downloads/Anaconda3-2022.05-Linux-x86_64.sh 
+`└─ $ ▶ bash ~/Downloads/Anaconda3-2022.05-Linux-x86_64.sh`
 
 ---
 
 Version
 
-└─ $ ▶ conda --versions
+`└─ $ ▶ conda --versions`
 
 ---
 
 Change $path
 
-└─ $ ▶ export PATH=~/anaconda3/bin:$PATH
+`└─ $ ▶ export PATH=~/anaconda3/bin:$PATH`
 
 ---
 
 Create virtualenv
 
-└─ $ ▶ conda create --name env79 python=3.9
+`└─ $ ▶ conda create --name env79 python=3.9`
 
 ---
 
 if ERROR
 
-└─ $ ▶ source ~/.bashrc
+`└─ $ ▶ source ~/.bashrc`
 
 (base) \
-└─ $ ▶ conda activate env79
+`└─ $ ▶ conda activate env79`
 
 (env79) \
-└─ $ ▶ On y est !!!
+`└─ $ ▶ On y est !!!`
 
 ---
 
 Install pytorch
 
-└─ $ ▶ conda install -c pytorch pytorch
+`└─ $ ▶ conda install -c pytorch pytorch`
 
 ---
 
@@ -148,10 +148,12 @@ JUPYTER
 
 (env79)
 Install Jupyter
-└─ $ ▶ conda install -c anaconda jupyter
+
+`└─ $ ▶ conda install -c anaconda jupyter`
 
 Open Jupyter notebook (browser)
-└─ $ ▶ jupyter notebook
+
+`└─ $ ▶ jupyter notebook`
 
 > Use Control-C to stop this server and shut down all kernels 
 
@@ -164,7 +166,7 @@ Open Jupyter notebook (browser)
 
 ---
 
-GitHub
+GitHub \
 > Create a new repository and upload your "file_name.pynb" from GitHub.
 
 or
@@ -172,6 +174,6 @@ or
 https://anaconda.org/anaconda/git
 
 To install this package with conda run:
-└─ $ ▶ conda install -c anaconda git
+`└─ $ ▶ conda install -c anaconda git`
 
 ---
