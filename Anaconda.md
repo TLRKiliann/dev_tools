@@ -166,7 +166,7 @@ Open Jupyter notebook (browser)
 
 ---
 
-GitHub \
+GitHub
 > Create a new repository and upload your "file_name.pynb" from GitHub.
 
 or
@@ -174,6 +174,7 @@ or
 https://anaconda.org/anaconda/git
 
 To install this package with conda run:
+
 `└─ $ ▶ conda install -c anaconda git`
 
 ---
