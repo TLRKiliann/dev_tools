@@ -145,8 +145,8 @@ file:.git/config        alias.ci=commit
 
 ```
 [user]
-	name = TLRKiliann
-	email = philogenie@protonmail.com
+	name = YourUserName
+	email = your@email.com
 [alias]
 	ci = commit
 	co = checkout
