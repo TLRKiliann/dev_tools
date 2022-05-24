@@ -403,7 +403,7 @@ https://git-scm.com/book/fr/v2/Les-branches-avec-Git-Rebaser-Rebasing
 
 # Amend
 
-1. Changing the Last Commit: 
+1. Changing the Last Commit : 
 
 `└─ $ ▶ git commit --amend`
 
@@ -425,13 +425,21 @@ https://git-scm.com/book/fr/v2/Les-branches-avec-Git-Rebaser-Rebasing
 
 # USEFULL COMMANDS	
 
-**After modifying or editing a file**
+- After modifying or editing a file
 
 `└─ $ ▶ git diff` (with optional filename.etc)
 
+- Cancel last commit :
+
+`└─ $ ▶ git reset --hard HEAD~1`
+
+- Modify last commiit :
+	
 `└─ $ ▶ git commit --amend`
 
 `└─ $ ▶ git commit --amend --no-edit`
+
+- Display commit from master to some_feature :
 	
 `└─ $ ▶ git log --oneline master..some-feature`
 
@@ -439,6 +447,8 @@ https://git-scm.com/book/fr/v2/Les-branches-avec-Git-Rebaser-Rebasing
 
 `└─ $ ▶ diff --name-only --diff-filter=U`
 
+- Alias cmd :
+	
 ```
 └─ $ ▶ git config --global alias.co checkout
 └─ $ ▶ git config --global alias.ci commit
