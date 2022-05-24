@@ -100,7 +100,7 @@ Install testing lib & jest
 
 `└─ $ ▶ npm install @testing-library/react jest --save-dev`
 
-App.test.js
+App.test.js (configuration with examples)
 
 ```
 import '@testing-library/jest-dom'
