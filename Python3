@@ -1,5 +1,3 @@
-
-
 ```
  /$$$$$$$              /$$     /$$                            /$$$$$$ 
 | $$__  $$            | $$    | $$                           /$$__  $$
@@ -11,14 +9,12 @@
 |__/       \____  $$   \___/  |__/  |__/ \______/ |__/  |__/ \______/ 
            /$$  | $$                                                  
           |  $$$$$$/                                                  
-           \______/                                                   
-                                  
+           \______/                                                                                     
 ```
 
 
-
-
 # Python installation
+
 
 Python3 is already installed on ubuntu 18.04 **don't install it** !
 
@@ -27,6 +23,7 @@ It is preferable to install versions higher than python3 in a virtual environmen
 You have to be careful when installing pip.
 
 ## Indeed pip must correspond to the good version of python
+
 
 `└─ $ ▶ python3 --version`
 
