@@ -11,7 +11,7 @@
 
 # Install Anaconda
 
---------
+---
 
 - Downloading \
 https://repo.anaconda.com/archive/Anaconda3-2022.05-Linux-x86_64.sh
@@ -22,13 +22,17 @@ Decompile Folder
 
 `└─ $ ▶ bash ~/Downloads/Anaconda3-2022.05-Linux-x86_64.sh`
 
+if ERROR
+
+`└─ $ ▶ source ~/.bashrc`
+
 ---
 
 Version
 
 `└─ $ ▶ conda --versions`
 
----
+If it doesn't work :
 
 Change $path
 
@@ -42,15 +46,19 @@ Create virtualenv
 
 ---
 
-if ERROR
-
-`└─ $ ▶ source ~/.bashrc`
+DEACTIVATE
+(env) \
+`└─ $ ▶ conda deactivate`
 
 (base) \
-`└─ $ ▶ conda activate env79`
+`└─ $ ▶ You are in second virtualenv.`
 
-(env79) \
-`└─ $ ▶ On y est !!!`
+```
+(base) restart automatically in every time you open a terminal
+To set the auto_activate_base parameter to false, type :
+```
+
+`└─ $ ▶ conda config --set auto_activate_base false`
 
 ---
 
@@ -94,20 +102,6 @@ you can see versions of :
 
 ---
 
-DEACTIVATE
-
-`└─ $ ▶ conda deactivate`
-
-(base) \
-`└─ $ ▶ You are in second virtualenv.`
-
-```
-(base) restart automatically in every time you open a terminal
-To set the auto_activate_base parameter to false, type :
-```
-
-`└─ $ ▶ conda config --set auto_activate_base false`
-
 ACTIVATE
 
 `└─ $ ▶ conda activate env79`
@@ -128,6 +122,12 @@ UPDATE
 
 INSTALL
 -------
+
+Type in your browser :
+
+`anaconda flask` or `anaconda git`
+
+You will esealy find what you search.
 
 For install libraries with pip command
 copy the link : https://pypi.org/project/sty/
