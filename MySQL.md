@@ -86,3 +86,34 @@ INSERT INTO `product_details`
 ## Show certain selected rows with the value “whatever”. 
 
 `SELECT * FROM [table name] WHERE [field name] = “whatever”;`
+
+
+
+---
+
+## Join 2 Tables :
+
+## Without joining really, just to display :
+
+**For example :**
+
+`SELECT * FROM tableA a, tableB b; `
+
+### By column name :
+
+```
+SELECT column_name(s)
+FROM table1 INNER JOIN table2
+ON table1.column_name=table2.column_name;
+```
+
+### By 
+
+```
+SELECT column_name(s)
+FROM table1
+JOIN table2
+ON table1.column_name=table2.column_name;
+```
+
+
