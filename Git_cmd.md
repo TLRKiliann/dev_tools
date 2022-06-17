@@ -440,6 +440,11 @@ https://git-scm.com/book/fr/v2/Les-branches-avec-Git-Rebaser-Rebasing
 
 # USEFULL COMMANDS	
 
+- To change HTTPS for SSH access with GitHub :
+
+`└─ $ ▶ git remote set-url origin https://address_of_project`
+
+
 - About HEAD^ & HEAD~ :
 	
 ```
