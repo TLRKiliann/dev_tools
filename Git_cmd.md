@@ -408,7 +408,7 @@ https://git-scm.com/book/fr/v2/Les-branches-avec-Git-Rebaser-Rebasing
 	
 - Cancel last commit (deleted) :
 
-**Warning !!! It will delete all changes what you made in your code for this commit !!!**	
+**Warning !!! It will delete all changes what you made in your code before, if you delete this commit !!!**	
 	
 `└─ $ ▶ git reset --hard HEAD~1`
 	
