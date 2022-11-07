@@ -11,17 +11,21 @@
 
 **index.js**
 
+```
 import {createStore} from "redux";
 import {combined} from "react-redux";
 import allReducers from "./Reducers";
+```
 
 ---
 
 **App.js**
 
+```
 import {useSelector} from "react-redux";
 import {useDispatch} from "react-redux";
 import {}
+```
 
 ---
 
