@@ -3,6 +3,8 @@
 └─ $ ▶ npm install -D vitest
 
 (vitest.config.ts)
+
+```
 /// <reference types="vitest" />
 /// <reference types="vite/client" />
 
@@ -17,8 +19,10 @@ export default defineConfig({
       environment: 'jsdom',
     }
 })
+```
 
 (package.json)
+```
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -26,8 +30,10 @@ export default defineConfig({
     "test": "vitest",
     "coverage": "vitest run --coverage"
   },
+```
   
   └─ $ ▶ npm run test
+  
   └─ $ ▶ npm run coverage
   
 ## Additionnal dependencies
@@ -50,21 +56,24 @@ export default defineConfig({
 })
 
 (App.test.js)
+```
 import {beforeEach, describe, expect, test, it, vi} from 'vitest';
 import {fireEvent, render, screen, waitFor} from '@testing-library/react';
 import "@testing-library/jest-dom";
 import { act } from 'react-dom/test-utils';
 import {create} from 'react-test-renderer';
-
+```
 ---
 
 ## MatchSnapshot
 
+```
 import { expect, it } from 'vitest'
 
 it('toUpperCase', () => {
   const result = toUpperCase('foobar')
   expect(result).toMatchSnapshot()
 })
+```
 
 ---
