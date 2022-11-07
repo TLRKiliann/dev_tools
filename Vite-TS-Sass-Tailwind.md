@@ -4,9 +4,9 @@
 
 └─ $ ▶ npm create vite@latest
 
-> react
+`>` react
 
-> TypeScript
+`>` TypeScript
 
 └─ $ ▶ cd vite-project
 
