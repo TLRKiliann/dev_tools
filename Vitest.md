@@ -39,7 +39,8 @@ export default defineConfig({
 ## Additionnal dependencies
 
   └─ $ ▶ npm i -D jsdom @testing-library/react
-  
+
+```
 /// <reference types="vitest" />
 /// <reference types="vite/client" />
 
@@ -54,8 +55,10 @@ export default defineConfig({
       environment: 'jsdom',
     }
 })
+```
 
 (App.test.js)
+
 ```
 import {beforeEach, describe, expect, test, it, vi} from 'vitest';
 import {fireEvent, render, screen, waitFor} from '@testing-library/react';
@@ -63,6 +66,7 @@ import "@testing-library/jest-dom";
 import { act } from 'react-dom/test-utils';
 import {create} from 'react-test-renderer';
 ```
+
 ---
 
 ## MatchSnapshot
