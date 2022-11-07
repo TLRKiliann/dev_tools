@@ -35,7 +35,9 @@ export default defineConfig({
   └─ $ ▶ npm run test
   
   └─ $ ▶ npm run coverage
-  
+
+---
+
 ## Additionnal dependencies
 
   └─ $ ▶ npm i -D jsdom @testing-library/react
