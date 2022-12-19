@@ -173,7 +173,7 @@ file:.git/config        alias.ci=commit
 
 `└─ $ ▶ git push -u origin name_of_branch sender`
 
-## Warning !
+# Warning !
 
 If you accidently omit to hide your .env file & if you want to hide it:
 
@@ -190,6 +190,14 @@ then to remove it from git & from your repository :
 `└─ $ ▶ git rm --cached .env`
 
 File .env exists, but it's hide yet.
+
+`└─ $ ▶ git add .gitignore`
+
+`└─ $ ▶ git commit -m "your description to hide .env file"`
+
+to change it in github repository, enter this cmd:
+
+`└─ $ ▶ git push -u origin dev or master`
 
 ---
 
