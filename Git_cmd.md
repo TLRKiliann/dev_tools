@@ -173,6 +173,24 @@ file:.git/config        alias.ci=commit
 
 `└─ $ ▶ git push -u origin name_of_branch sender`
 
+## Warning !
+
+If you accidently omit to hide your .env file & if you want to hide it:
+
+`└─ $ ▶ touch .gitignore`
+
+`└─ $ ▶ nano .gitignore`
+
+& write :
+
+.env
+
+then to remove it from git & from your repository :
+
+`└─ $ ▶ git rm --cached .env`
+
+File .env exists, but it's hide yet.
+
 ---
 
 # Branch
@@ -233,13 +251,13 @@ Après toutes ces tâches, et s’être assuré que la branche main se comporte 
 
 ---
 
-**Merge a branch**
+## Merge a branch
 
 `└─ $ ▶ git merge branch_name`
 
 **If there is conflict**
 
-`└─ $ ▶git merge --abort`
+`└─ $ ▶ git merge --abort`
 
 ## How to abort a conflicting merge in Git:
 
