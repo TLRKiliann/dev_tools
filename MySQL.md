@@ -27,8 +27,10 @@ CREATE TABLE `orders` (
   `city` VARCHAR(255),
   `order_total` DECIMAL(5,2),
   `order_date` VARCHAR(255),
+  `number` INT(10) UNSIGNED,
+  `boolean` TINYINT(1),
   PRIMARY KEY (order_id)
-) 
+);
 ```
 
 ---
@@ -36,10 +38,6 @@ CREATE TABLE `orders` (
 ## Show all databases :
 
 `SHOW databases;`
-
-## Delete DataBase :
-
-`DROP db_name users;`
 
 ## Switch to a DataBase :
 
@@ -85,9 +83,11 @@ INSERT INTO `product_details`
 
 ## Show certain selected rows with the value “whatever”. 
 
-`SELECT * FROM [table name] WHERE [field name] = “whatever”;`
+`SELECT * FROM [table name] WHERE [field name];`
 
+`INSERT INTO table_name (parameter_1, parameter_2) VALUES (?,?);`
 
+`UPDATE table_name SET parameter_1=?, parameter_2=? where order_id=?;`
 
 ---
 
