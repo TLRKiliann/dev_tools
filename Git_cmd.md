@@ -430,6 +430,12 @@ https://git-scm.com/book/fr/v2/Les-branches-avec-Git-Rebaser-Rebasing
 
 ---
 
+`└─ $ ▶ git commit -a -m "new line in line 3"`
+	
+`└─ $ ▶ git rebase -i HEAD~3`
+	
+---
+
 # Delete a commit
 	
 - Cancel last commit (deleted) :
