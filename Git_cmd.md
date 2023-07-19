@@ -263,10 +263,6 @@ Après toutes ces tâches, et s’être assuré que la branche main se comporte 
 
 `└─ $ ▶ git merge branch_name`
 
-**If there is conflict**
-
-`└─ $ ▶ git merge --abort`
-
 ## How to abort a conflicting merge in Git:
 
 **If you want to throw a merge away and start over, you can run the following command :**
