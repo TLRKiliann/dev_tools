@@ -45,13 +45,17 @@ First time
 
 `└─ $ ▶ git config --global user.email "e-mail"`
 
-To verif name
+To verify user (from local repository)
 
 `└─ $ ▶ git config user.name`
 
-To verify email
-
 `└─ $ ▶ git config user.email`
+
+To verify user (global)
+
+`└─ $ ▶ git config --global user.name`
+
+`└─ $ ▶ git config --global user.email`
 
 ## Virtualenv
 
@@ -201,7 +205,7 @@ to change it in github repository, enter this cmd:
 
 ---
 
-# Branch
+# Display branch
 
 `└─ $ ▶ git branch`
 
