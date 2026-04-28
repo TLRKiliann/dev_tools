@@ -263,6 +263,20 @@ Après toutes ces tâches, et s’être assuré que la branche main se comporte 
 
 ---
 
+# Remote & URL
+
+If you use `git clone` to clone a repository from a GitHub account that isn't yours and want to add it to your GitHub account.
+
+To display origin url:
+
+`└─ $ ▶git remote -v` (It will show you a different url of your account)
+
+To change url:
+
+`└─ $ ▶git remote set-url origin https://github.com/User_Name/app_name.git`
+
+---
+
 ## Merge a branch
 
 `└─ $ ▶ git merge branch_name`
