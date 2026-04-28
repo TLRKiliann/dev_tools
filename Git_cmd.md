@@ -269,11 +269,11 @@ If you use `git clone` to clone a repository from a GitHub account that isn't yo
 
 To display origin url:
 
-`└─ $ ▶git remote -v` (It will show you a different url of your account)
+`└─ $ ▶ git remote -v` (It will show you a different url of your account)
 
 To change url:
 
-`└─ $ ▶git remote set-url origin https://github.com/User_Name/app_name.git`
+`└─ $ ▶ git remote set-url origin https://github.com/User_Name/app_name.git`
 
 ---
 
